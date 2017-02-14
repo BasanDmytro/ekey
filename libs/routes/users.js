@@ -3,7 +3,13 @@
  */
 var express = require('express');
 var passport = require('passport');
+var multer = require('multer');
+var upload = multer();
+var bcrypt = require('bcrypt');
 var router = express.Router();
+
+var University = require('../model/univer');
+
 
 var libs = process.cwd() + '/libs/';
 
@@ -14,6 +20,53 @@ router.get('/', function(req, res) {
         'sad': 'asd'
     });
     console.log("sad");
+});
+
+
+router.post('/setuniber', upload.array(), function (req, res, next) {
+   var univer = new University;
+   univer.name = req.body.name;
+   univer.save(function (err) {
+       if (err) {
+           res.sendStatus(500)
+       }
+       console.log(univer);
+       console.log(University);
+   })
+
+});
+
+router.get('/universities', function(req, res) {
+    University.find({}, function(err, users) {
+        if (err) throw err;
+        res.send(JSON.stringify(users));
+        console.log(users);
+    });
+});
+
+router.post('/regstudent', upload.array(), function (req, res, next) {
+    var user = new User;
+    user.firstName = req.body.firstName;
+    user.thirdName = req.body.thirdName;
+    user.secondName = req.body.secondName;
+    user.email = req.body.email;
+    user.role = req.body.role;
+    user.id = req.body.id;
+    user.university = req.body.university;
+    user.group = req.body.group;
+    bcrypt.hash(password, 10, function(err, hash){
+        if (err) {
+            res.sendStatus(500)
+        } else {
+            user.hashedPassword = hash;
+            user.save(function (err) {
+                if (err) {
+                    res.sendStatus(500)
+                }
+                //res.sendfile("index.html");
+            })
+        }
+    })
 });
 
 module.exports = router;

@@ -18,6 +18,18 @@ var Book = new Schema({
 
 
 var User = new Schema({
+		firstName: {
+			type: String,
+			required: true
+		},
+		thirdName: {
+			type: String,
+			required: true
+		},
+		secondName: {
+			type: String,
+			required: true
+		},
         email: {
             type: String,
             unique: true,
@@ -27,16 +39,17 @@ var User = new Schema({
             type: String,
             required: true
         },
-        salt: {
-            type: String,
-            required: true
-        },
+		id: {
+        	type: String,
+        	required: true
+	    },
+		role: {
+        	type: String,
+			required: true
+		},
         university: {
             type: String,
             required: true
-        },
-        faculty: {
-            type: String
         },
         group: {
             type: String
@@ -71,4 +84,6 @@ User.methods.checkPassword = function(password) {
     return this.encryptPassword(password) === this.hashedPassword;
 };
 
+
 module.exports = mongoose.model('User', User);
+
