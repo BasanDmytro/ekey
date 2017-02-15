@@ -82,7 +82,7 @@ router.post('/regstudent', upload.array(), function (req, res, next) {
                 if (err) {
                     res.sendStatus(500)
                 }
-                //res.sendfile("index.html");
+                res.send("OK");
             })
         }
     })
