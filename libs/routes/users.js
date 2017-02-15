@@ -23,7 +23,12 @@ router.get('/', function(req, res) {
 });
 
 
-router.post('/setgroup', upload.array(), function (req, res, next) {
+router.post('/setbook', upload.array(), function (req, res, next) { // set book to student
+
+});
+
+
+router.post('/setgroup', upload.array(), function (req, res, next) { // set group
     University.findOne({name: req.body.univer}, function(err, users) {
         if (err) throw err;
         users.groups.push(req.body.group);
@@ -31,7 +36,7 @@ router.post('/setgroup', upload.array(), function (req, res, next) {
     });
 });
 
-router.post('/setlibrary', upload.array(), function (req, res, next) {
+router.post('/setlibrary', upload.array(), function (req, res, next) { // set library
     University.findOne({name: req.body.univer}, function(err, users) {
         if (err) throw err;
         users.libraries.push(req.body.library);
@@ -40,7 +45,7 @@ router.post('/setlibrary', upload.array(), function (req, res, next) {
 });
 
 
-router.post('/setuniver', upload.array(), function (req, res, next) {
+router.post('/setuniver', upload.array(), function (req, res, next) { // set univer
    var univer = new University;
    univer.name = req.body.name;
    univer.save(function (err) {
@@ -50,7 +55,7 @@ router.post('/setuniver', upload.array(), function (req, res, next) {
    })
 });
 
-router.get('/universities', function(req, res) {
+router.get('/universities', function(req, res) { //get all universities
     University.find({}, function(err, users) {
         if (err) throw err;
         res.send(JSON.stringify(users));
