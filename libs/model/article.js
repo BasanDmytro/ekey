@@ -1,22 +1,8 @@
 var mongoose = require('mongoose');
-require('./univer')
+require('./univer');
+var Book = require('./book');
 var Schema = mongoose.Schema;
 
-var oldUser = new Schema({
-	name: { type: String, required: true },
-	dateFrom: { type: String, required: true },
-	dateTo: { type: String, required: true }
-});
-
-var Book = new Schema({
-	name: { type: String, required: true },
-	author: { type: String, required: true },
-	year: { type: String, required: true },
-	pages: { type: String, required: true },
-    description: { type: String, required: true },
-	oldUsers: [oldUser],
-    library: { type: String, required: true}
-});
 
 var User = new Schema({
 		firstName: {
@@ -88,5 +74,5 @@ User.methods.checkPassword = function(password) {
 
 module.exports = mongoose.model('User', User);
 
-module.exports = mongoose.model('Book', Book);
+
 

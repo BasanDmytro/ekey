@@ -11,6 +11,8 @@ var router = express.Router();
 var University = require('../model/univer');
 
 
+var Book = require('../model/book');
+
 var libs = process.cwd() + '/libs/';
 
 var db = require(libs + 'db/mongoose');
@@ -24,7 +26,11 @@ router.get('/', function(req, res) {
 
 
 router.post('/setbook', upload.array(), function (req, res, next) { // set book to student
-
+    Book.findOne({name: req.body.univer}, function(err, users) {
+        if (err) throw err;
+        users.groups.push(req.body.group);
+        users.save();
+    });
 });
 
 

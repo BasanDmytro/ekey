@@ -1,7 +1,7 @@
 {
-    "name": "NodeAPI",
+    "name": "E-Key",
     "version": "1.0.0",
-    "author": "Evgeny Aleksandrov",
+    "author": "Basan Dmytro",
     "description": "Simple example of RESTful API with Node.js and passport",
     "private": true,
     "scripts": {
