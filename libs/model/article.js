@@ -1,4 +1,5 @@
 var mongoose = require('mongoose');
+require('./univer')
 var Schema = mongoose.Schema;
 
 var oldUser = new Schema({
@@ -13,9 +14,9 @@ var Book = new Schema({
 	year: { type: String, required: true },
 	pages: { type: String, required: true },
     description: { type: String, required: true },
-	oldUsers: [oldUser]
+	oldUsers: [oldUser],
+    library: { type: String, required: true}
 });
-
 
 var User = new Schema({
 		firstName: {

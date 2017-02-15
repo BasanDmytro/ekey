@@ -23,17 +23,31 @@ router.get('/', function(req, res) {
 });
 
 
-router.post('/setuniber', upload.array(), function (req, res, next) {
+router.post('/setgroup', upload.array(), function (req, res, next) {
+    University.findOne({name: req.body.univer}, function(err, users) {
+        if (err) throw err;
+        users.groups.push(req.body.group);
+        users.save();
+    });
+});
+
+router.post('/setlibrary', upload.array(), function (req, res, next) {
+    University.findOne({name: req.body.univer}, function(err, users) {
+        if (err) throw err;
+        users.libraries.push(req.body.library);
+        users.save();
+    });
+});
+
+
+router.post('/setuniver', upload.array(), function (req, res, next) {
    var univer = new University;
    univer.name = req.body.name;
    univer.save(function (err) {
        if (err) {
            res.sendStatus(500)
        }
-       console.log(univer);
-       console.log(University);
    })
-
 });
 
 router.get('/universities', function(req, res) {
