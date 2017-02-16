@@ -10,6 +10,7 @@ var router = express.Router();
 
 var University = require('../model/univer');
 
+var User = require('../model/article');
 
 var Book = require('../model/book');
 
@@ -24,15 +25,48 @@ router.get('/', function(req, res) {
     console.log("sad");
 });
 
+router.post('/setbook', upload.array(), function (req, res, next) { // set book to library
+    var book = new Book;
+    book.idNum = req.body.idNum;
+    book.name = req.body.name;
+    book.author = req.body.author;
+    book.year = req.body.year;
+    book.pages = req.body.pages;
+    book.description = req.body.description;
+    book.library = req.body.library;
+    book.save(function (err) {
+        if (err) {
+            res.sendStatus(500)
+        }
+        res.send("OK");
+    })
+});
 
-router.post('/setbook', upload.array(), function (req, res, next) { // set book to student
-    Book.findOne({name: req.body.univer}, function(err, users) {
+router.post('/setbooktostudent', upload.array(), function (req, res, next) { // set book to library
+    var idBook = req.body.idBook;
+    var idStudent = req.body.idStudent;
+    Book.findOne({idNum: idBook}, function(err, book) {
         if (err) throw err;
-        users.groups.push(req.body.group);
-        users.save();
+        User.findOne({id: idStudent}, function (err, usr) {
+            if (err) throw err;
+            usr.books.push(book);
+            usr.save();
+        });
     });
 });
 
+router.post('/deletebooktostudent', upload.array(), function (req, res, next) { // delete book to library
+    var idBook = req.body.idBook;
+    var idStudent = req.body.idStudent;
+    Book.findOne({idNum: idBook}, function(err, book) {
+        if (err) throw err;
+        User.findOne({id: idStudent}, function (err, usr) {
+            if (err) throw err;
+            usr.books.pop(book);
+            usr.save();
+        });
+    });
+});
 
 router.post('/setgroup', upload.array(), function (req, res, next) { // set group
     University.findOne({name: req.body.univer}, function(err, users) {
@@ -92,6 +126,38 @@ router.post('/regstudent', upload.array(), function (req, res, next) {
             })
         }
     })
+});
+
+
+router.post ('/login', upload.array(), function(req, res, next) {
+    if (!req.body.email || !req.body.password) {
+        return res.sendStatus(400);
+    } else {
+        var email = req.body.email;
+        var password = req.body.password;
+        User.findOne({username: email})
+            .select('email')
+            .select('hashedPassword')
+            .exec(function(err, user){
+                if (err) {
+                    return res.sendStatus(500)
+                }
+                if (!user) {
+                    return res.sendfile("401.html")
+                }
+                bcrypt.compare(password, user.hashedPassword, function(err, valid) {
+                    if (err) {
+                        return res.sendStatus(500)
+                    }
+                    if (!valid) {
+                        return res.sendfile("401.html")
+                    }
+                    res.send(
+                        JSON.stringify(user)
+                    );
+                })
+            })
+    }
 });
 
 module.exports = router;
