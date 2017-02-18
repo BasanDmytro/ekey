@@ -25,6 +25,17 @@ router.get('/', function(req, res) {
     console.log("sad");
 });
 
+
+router.get('/reg', function (req, res) {
+    res.sendFile( __dirname + "/ekey-front/registration/" + "registrationUser.html" );
+
+});
+
+router.get('/log', function (req, res) {
+    res.sendFile( __dirname + "/ekey-front/login/" + "login.html" );
+
+});
+
 router.post('/setbook', upload.array(), function (req, res, next) { // set book to library
     var book = new Book;
     book.idNum = req.body.idNum;
@@ -113,19 +124,46 @@ router.post('/regstudent', upload.array(), function (req, res, next) {
     user.id = req.body.id;
     user.university = req.body.university;
     user.group = req.body.group;
-    bcrypt.hash(password, 10, function(err, hash){
+    bcrypt.hash(req.body.password, 10, function(err, hash){
         if (err) {
             res.sendStatus(500)
         } else {
             user.hashedPassword = hash;
             user.save(function (err) {
                 if (err) {
-                    res.sendStatus(500)
+                    res.sendStatus(404)
                 }
-                res.send("OK");
+                res.sendFile( __dirname + "/ekey-front/login/" + "login.html" );
             })
         }
-    })
+    });
+
+});
+
+router.post('/reglib', upload.array(), function (req, res, next) {
+    var user = new User;
+    user.firstName = req.body.firstName;
+    user.thirdName = req.body.thirdName;
+    user.secondName = req.body.secondName;
+    user.email = req.body.email;
+    user.role = req.body.role;
+    user.id = req.body.id;
+    user.university = req.body.university;
+    user.library = req.body.library;
+    bcrypt.hash(req.body.password, 10, function(err, hash){
+        if (err) {
+            res.sendStatus(500)
+        } else {
+            user.hashedPassword = hash;
+            user.save(function (err) {
+                if (err) {
+                    res.sendStatus(404)
+                }
+                res.sendFile( __dirname + "/ekey-front/login/" + "login.html" );
+            })
+        }
+    });
+
 });
 
 
@@ -135,9 +173,17 @@ router.post ('/login', upload.array(), function(req, res, next) {
     } else {
         var email = req.body.email;
         var password = req.body.password;
-        User.findOne({username: email})
+        User.findOne({email: email})
             .select('email')
             .select('hashedPassword')
+            .select('firstName')
+            .select('thirdName')
+            .select('secondName')
+            .select('role')
+            .select('university')
+            .select('group')
+            .select('library')
+            .select('books')
             .exec(function(err, user){
                 if (err) {
                     return res.sendStatus(500)
@@ -150,7 +196,7 @@ router.post ('/login', upload.array(), function(req, res, next) {
                         return res.sendStatus(500)
                     }
                     if (!valid) {
-                        return res.sendfile("401.html")
+                        return res.sendStatus(404);
                     }
                     res.send(
                         JSON.stringify(user)
