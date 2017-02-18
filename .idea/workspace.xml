@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e98ef56e-f225-40f4-8e53-26c417dd5355" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
-    <list id="39533568-eff0-43b0-bf5d-5321d52aba47" name="Failed commit: Default" comment="add api">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/routes/ekey-front" afterPath="$PROJECT_DIR$/libs/routes/ekey-front" />
-    </list>
+    <list default="true" id="e98ef56e-f225-40f4-8e53-26c417dd5355" name="Default" comment="" />
+    <list id="39533568-eff0-43b0-bf5d-5321d52aba47" name="Failed commit: Default" comment="add api" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -45,28 +41,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registrationUser.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/registration/registrationUser.html">
+      <file leaf-file-name="2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="156" column="5" lean-forward="true" selection-start-line="156" selection-start-column="5" selection-end-line="156" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registrationLibrarian.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/registration/registrationLibrarian.html">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-372">
-              <caret line="382" column="43" lean-forward="false" selection-start-line="382" selection-start-column="43" selection-end-line="382" selection-end-column="43" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/registration/1.html">
+      <file leaf-file-name="exclude" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.git/info/exclude">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -75,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2.html">
+      <file leaf-file-name="jquery.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/landing_page/js/jquery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,26 +86,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/model/article.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modal.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/login/js/modal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
-              <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -246,28 +222,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ekey-front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ekey" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ekey" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -288,6 +242,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs/routes/asdads" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/libs/routes/ekey-front/registration" />
     </key>
@@ -369,12 +324,12 @@
       <option name="presentableId" value="Default" />
       <updated>1486996939733</updated>
       <workItem from="1486996941244" duration="40000000" />
-      <workItem from="1487408185745" duration="8279000" />
+      <workItem from="1487408185745" duration="8623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48279000" />
+    <option name="totallyTimeSpent" value="48623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -416,38 +371,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/libs/model/article.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -500,14 +423,6 @@
     <entry file="file://$PROJECT_DIR$/libs/log.js" />
     <entry file="file://$PROJECT_DIR$/generateData.js" />
     <entry file="file://$PROJECT_DIR$/logs/all.log" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -641,9 +556,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="28898" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -737,6 +650,49 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.git/info/exclude">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/landing_page/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/landing_page/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/landing_page/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
