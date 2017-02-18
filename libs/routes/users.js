@@ -27,12 +27,12 @@ router.get('/', function(req, res) {
 
 
 router.get('/reg', function (req, res) {
-    res.sendFile( __dirname + "/ekey-front/registration/" + "registrationUser.html" );
+    res.sendFile( __dirname + "/ekey-ekey-front/registration/" + "registrationUser.html" );
 
 });
 
 router.get('/log', function (req, res) {
-    res.sendFile( __dirname + "/ekey-front/login/" + "login.html" );
+    res.sendFile( __dirname + "/ekey-ekey-front/login/" + "login.html" );
 
 });
 
@@ -133,7 +133,7 @@ router.post('/regstudent', upload.array(), function (req, res, next) {
                 if (err) {
                     res.sendStatus(404)
                 }
-                res.sendFile( __dirname + "/ekey-front/login/" + "login.html" );
+                res.sendFile( __dirname + "/ekey-ekey-front/login/" + "login.html" );
             })
         }
     });
@@ -159,7 +159,7 @@ router.post('/reglib', upload.array(), function (req, res, next) {
                 if (err) {
                     res.sendStatus(404)
                 }
-                res.sendFile( __dirname + "/ekey-front/login/" + "login.html" );
+                res.sendFile( __dirname + "/ekey-ekey-front/login/" + "login.html" );
             })
         }
     });
