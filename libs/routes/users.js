@@ -27,41 +27,78 @@ router.get('/', function(req, res) {
 
 
 router.get('/reg', function (req, res) {
-    res.sendFile( __dirname + "/ekey-ekey-front/registration/" + "registrationUser.html" );
+    res.sendFile( __dirname + "/ekey-front/registration/" + "registrationUser.html" );
+
+});
+
+router.get('/main', function (req, res) {
+    res.sendFile( __dirname + "/ekey-front/mainpage/" + "mainpage.html" );
 
 });
 
 router.get('/log', function (req, res) {
-    res.sendFile( __dirname + "/ekey-ekey-front/login/" + "login.html" );
+    res.sendFile( __dirname + "/ekey-front/login/" + "login.html" );
 
 });
 
 router.post('/setbook', upload.array(), function (req, res, next) { // set book to library
     var book = new Book;
-    book.idNum = req.body.idNum;
-    book.name = req.body.name;
-    book.author = req.body.author;
-    book.year = req.body.year;
-    book.pages = req.body.pages;
-    book.description = req.body.description;
-    book.library = req.body.library;
+    book.idNum = req.body.idBook;
+    book.name = req.body.nameBook;
+    book.author = req.body.authorBook;
+    book.year = req.body.yearBook;
+    book.pages = req.body.booksheets;
+    book.description = req.body.keywords;
+    console.log(book);
     book.save(function (err) {
+        if (err) {
+            res.sendStatus(404)
+        }
+
+    });
+    res.sendFile( __dirname + "/ekey-front/mainpage/" + "mainpage.html" );
+});
+
+
+router.post('/setuniver', upload.array(), function (req, res, next) { // set univer
+    var univer = new University;
+    univer.name = req.body.name;
+    univer.save(function (err) {
         if (err) {
             res.sendStatus(500)
         }
-        res.send("OK");
     })
 });
 
+
 router.post('/setbooktostudent', upload.array(), function (req, res, next) { // set book to library
     var idBook = req.body.idBook;
-    var idStudent = req.body.idStudent;
+    var idStudent = req.body.id;
+    var dateFrom = req.body.dateFrom;
+    var dateTo = req.body.dateTo;
     Book.findOne({idNum: idBook}, function(err, book) {
         if (err) throw err;
         User.findOne({id: idStudent}, function (err, usr) {
+            var temp = {};
+            temp.idNum = book.idNum;
+            temp.name = book.name;
+            temp.author = book.author;
+            temp.year = book.year;
+            temp.pages = book.pages;
+            temp.description = book.description;
+            temp.dateFrom = dateFrom;
+            temp.dateTo = dateTo;
+            usr.books.push(JSON.stringify(temp));
+            usr.save(function(err) {
+                if(!err) {
+                    console.log(usr);
+                }
+                else {
+                    console.log("Error: " + err);
+                }
+            });
             if (err) throw err;
-            usr.books.push(book);
-            usr.save();
+
         });
     });
 });
@@ -96,15 +133,7 @@ router.post('/setlibrary', upload.array(), function (req, res, next) { // set li
 });
 
 
-router.post('/setuniver', upload.array(), function (req, res, next) { // set univer
-   var univer = new University;
-   univer.name = req.body.name;
-   univer.save(function (err) {
-       if (err) {
-           res.sendStatus(500)
-       }
-   })
-});
+
 
 router.get('/universities', function(req, res) { //get all universities
     University.find({}, function(err, users) {
@@ -133,7 +162,7 @@ router.post('/regstudent', upload.array(), function (req, res, next) {
                 if (err) {
                     res.sendStatus(404)
                 }
-                res.sendFile( __dirname + "/ekey-ekey-front/login/" + "login.html" );
+                res.sendFile( __dirname + "/ekey-front/login/" + "login.html" );
             })
         }
     });
@@ -159,7 +188,7 @@ router.post('/reglib', upload.array(), function (req, res, next) {
                 if (err) {
                     res.sendStatus(404)
                 }
-                res.sendFile( __dirname + "/ekey-ekey-front/login/" + "login.html" );
+                res.sendFile( __dirname + "/ekey-front/login/" + "login.html" );
             })
         }
     });
@@ -198,9 +227,7 @@ router.post ('/login', upload.array(), function(req, res, next) {
                     if (!valid) {
                         return res.sendStatus(404);
                     }
-                    res.send(
-                        JSON.stringify(user)
-                    );
+                    res.sendFile( __dirname + "/ekey-front/mainpage/" + "mainpage.html" );
                 })
             })
     }

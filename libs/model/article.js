@@ -1,34 +1,27 @@
 var mongoose = require('mongoose');
 require('./univer');
-var Book = require('./book');
 var Schema = mongoose.Schema;
 
 
 var User = new Schema({
 		firstName: {
-			type: String,
-			required: true
+			type: String
 		},
 		thirdName: {
-			type: String,
-			required: true
+			type: String
 		},
 		secondName: {
-			type: String,
-			required: true
+			type: String
 		},
         email: {
             type: String,
-            unique: true,
-            required: true
+            unique: true
         },
         hashedPassword: {
-            type: String,
-            required: true
+            type: String
         },
-		id: {
-        	type: String,
-        	required: true
+		idNum: {
+        	type: String
 	    },
 		role: {
         	type: String,
@@ -44,7 +37,8 @@ var User = new Schema({
         library: {
             type: String
         },
-        books: [Book]
+        books: [JSON]
+
     });
 
 User.methods.encryptPassword = function(password) {
@@ -73,6 +67,5 @@ User.methods.checkPassword = function(password) {
 
 
 module.exports = mongoose.model('User', User);
-
 
 

@@ -2,70 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e98ef56e-f225-40f4-8e53-26c417dd5355" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/README.md" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/css/animate.min.css" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/css/animate.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/css/iconfont.css" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/css/iconfont.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/css/style.css" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/img/badge-appstore.png" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/img/badge-appstore.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/img/badge-appstore@2x.png" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/img/badge-appstore@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/img/dunes.jpg" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/img/dunes.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/img/iphone-front.png" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/img/iphone-front.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/img/nepal.jpg" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/img/nepal.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/img/screenshots/app-1.png" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/img/screenshots/app-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/img/screenshots/app-2.png" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/img/screenshots/app-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/img/screenshots/app-3.png" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/img/screenshots/app-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/img/sea.jpg" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/img/sea.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/img/status.gif" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/img/status.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/index.html" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/js/animatescroll.js" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/js/animatescroll.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/js/jquery.js" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/js/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/js/retina.min.js" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/js/retina.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/js/scripts.js" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/js/scripts.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/landy-icons/icons-reference.html" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/landy-icons/icons-reference.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/landy-icons/landyicons.eot" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/landy-icons/landyicons.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/landy-icons/landyicons.svg" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/landy-icons/landyicons.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/landy-icons/landyicons.ttf" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/landy-icons/landyicons.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/landing_page/landy-icons/landyicons.woff" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/landy-icons/landyicons.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/login/css/modal-contact.css" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/login/css/modal-contact.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/login/css/style.css" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/login/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/login/images/email.svg" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/login/images/email.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/login/images/password.png" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/login/images/password.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/login/js/jquery.js" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/login/js/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/login/js/modal.js" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/login/js/modal.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/login/login.html" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/login/login.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/mainpage/css/animate.min.css" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/css/animate.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/mainpage/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/mainpage/css/iconfont.css" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/css/iconfont.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/mainpage/css/modal-contact.css" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/css/modal-contact.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/mainpage/css/style.css" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/mainpage/images/book.png" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/book.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/mainpage/images/calendar.png" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/calendar.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/mainpage/images/fon.jpg" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/fon.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/mainpage/images/id.png" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/id.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/mainpage/images/password.png" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/password.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/mainpage/images/phone.jpg" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/phone.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/mainpage/images/url.png" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/url.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/mainpage/js/jquery.js" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/mainpage/js/load.js" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/load.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/mainpage/js/modal.js" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/modal.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/mainpage/js/retina.min.js" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/retina.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/mainpage/js/scripts.js" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/scripts.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/mainpage/mainpage.html" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/mainpage.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/registration/1.html" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/registration/1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/registration/css/style.css" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/registration/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/registration/images/book.png" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/registration/images/book.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/registration/images/calendar.png" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/registration/images/calendar.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/registration/images/fon.jpg" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/registration/images/fon.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/registration/images/id.png" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/registration/images/id.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/registration/images/password.png" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/registration/images/password.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/registration/images/phone.jpg" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/registration/images/phone.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/registration/images/url.png" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/registration/images/url.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/registration/js/load.js" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/registration/js/load.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/registration/registrationLibrarian.html" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/registration/registrationLibrarian.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/registration/registrationUser.html" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/registration/registrationUser.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/routes/front/serial/ser.js" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/serial/ser.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/css/animate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/css/iconfont.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/css/modal-contact.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/book.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/calendar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/fon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/id.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/password.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/phone.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/url.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/load.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/retina.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/scripts.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/model/article.js" afterPath="$PROJECT_DIR$/libs/model/article.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/model/book.js" afterPath="$PROJECT_DIR$/libs/model/book.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/mainpage.html" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/mainpage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/routes/users.js" afterPath="$PROJECT_DIR$/libs/routes/users.js" />
     </list>
     <list id="39533568-eff0-43b0-bf5d-5321d52aba47" name="Failed commit: Default" comment="add api" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -84,21 +42,33 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3.html">
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/libs/routes/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="57" lean-forward="false" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+            <state relative-caret-position="462">
+              <caret line="89" column="33" lean-forward="false" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainpage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/mainpage/mainpage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="1300" column="37" lean-forward="true" selection-start-line="1300" selection-start-column="37" selection-end-line="1300" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2.html">
+      <file leaf-file-name="article.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/model/article.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="480">
+              <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -114,41 +84,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="load.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/load.js">
+      <file leaf-file-name="book.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/model/book.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="12" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainpage.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/mainpage/mainpage.html">
+      <file leaf-file-name="univer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/model/univer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exclude" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.git/info/exclude">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -179,21 +129,21 @@
         <option value="$PROJECT_DIR$/bin/www" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/libs/routes/univer.js" />
-        <option value="$PROJECT_DIR$/libs/db/mongoose.js" />
         <option value="$PROJECT_DIR$/1.html" />
         <option value="$PROJECT_DIR$/libs/app.js" />
         <option value="$PROJECT_DIR$/libs/model/univer.js" />
-        <option value="$PROJECT_DIR$/libs/model/article.js" />
-        <option value="$PROJECT_DIR$/libs/model/book.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/libs/routes/ekey-front/registration/registrationUser.html" />
         <option value="$PROJECT_DIR$/libs/routes/ekey-front/login/login.html" />
-        <option value="$PROJECT_DIR$/libs/routes/users.js" />
         <option value="$PROJECT_DIR$/libs/routes/ekey-front/registration/registrationLibrarian.html" />
         <option value="$PROJECT_DIR$/2.html" />
         <option value="$PROJECT_DIR$/3.html" />
-        <option value="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/mainpage.html" />
         <option value="$PROJECT_DIR$/libs/routes/ekey-front/landing_page/index.html" />
+        <option value="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/mainpage.html" />
+        <option value="$PROJECT_DIR$/libs/db/mongoose.js" />
+        <option value="$PROJECT_DIR$/libs/model/book.js" />
+        <option value="$PROJECT_DIR$/libs/model/article.js" />
+        <option value="$PROJECT_DIR$/libs/routes/users.js" />
       </list>
     </option>
   </component>
@@ -339,6 +289,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ekey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ekey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -438,18 +406,18 @@
       <option name="presentableId" value="Default" />
       <updated>1486996939733</updated>
       <workItem from="1486996941244" duration="40000000" />
-      <workItem from="1487408185745" duration="8894000" />
+      <workItem from="1487408185745" duration="19799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48894000" />
+    <option name="totallyTimeSpent" value="59799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.50277996" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49722" order="1" side_tool="false" content_ui="tabs" />
@@ -480,34 +448,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/libs/model/book.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="44" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="16" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/model/univer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/model/client.js" />
-    <entry file="file://$PROJECT_DIR$/libs/model/user.js" />
-    <entry file="file://$PROJECT_DIR$/libs/model/accessToken.js" />
-    <entry file="file://$PROJECT_DIR$/libs/model/refreshToken.js" />
-    <entry file="file://$PROJECT_DIR$/libs/routes/articles.js" />
-    <entry file="file://$PROJECT_DIR$/libs/routes/oauth.js" />
-    <entry file="file://$PROJECT_DIR$/libs/auth/auth.js" />
     <entry file="file://$PROJECT_DIR$/libs/auth/oauth2.js" />
     <entry file="file://$PROJECT_DIR$/libs/routes/api.js" />
     <entry file="file://$PROJECT_DIR$/libs/log.js" />
@@ -528,6 +473,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -578,22 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/model/book.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="44" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="16" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/db/mongoose.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/registration/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -606,14 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/model/univer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -658,14 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/model/article.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/registration/registrationUser.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -686,40 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="151" column="36" lean-forward="true" selection-start-line="151" selection-start-column="36" selection-end-line="151" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="57" lean-forward="false" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -759,14 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/mainpage/mainpage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1482">
@@ -794,19 +666,165 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="5" column="26612" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="28898" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/load.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        <state relative-caret-position="375">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="138" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/retina.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="2770" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/mainpage/css/animate.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="51170" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/mainpage/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="845" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/mainpage/css/iconfont.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="434" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/mainpage/css/modal-contact.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/mainpage/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="706" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/db/mongoose.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/model/univer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/model/book.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="12" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/routes/ekey-front/mainpage/mainpage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="210">
+          <caret line="1300" column="37" lean-forward="true" selection-start-line="1300" selection-start-column="37" selection-end-line="1300" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/model/article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="89" column="33" lean-forward="false" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

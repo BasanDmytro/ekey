@@ -1,10 +1,5 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
-var oldUser = new Schema({
-    name: { type: String, required: true },
-    dateFrom: { type: String, required: true },
-    dateTo: { type: String, required: true }
-});
 
 var Book = new Schema({
     idNum: {type: String, required: true},
@@ -13,8 +8,9 @@ var Book = new Schema({
     year: { type: String, required: true },
     pages: { type: String, required: true },
     description: { type: String, required: true },
-    oldUsers: [oldUser],
-    library: { type: String, required: true}
+    dateFrom: { type: String },
+    dateTo: { type: String }
 });
 
 
+module.exports = mongoose.model('Book', Book);
