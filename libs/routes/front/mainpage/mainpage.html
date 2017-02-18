@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--suppress XmlDuplicatedId -->
+<html>
+  <head>
+    <title>E-Key</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- CSS
+        ================================================== -->
+    <!-- Bootstrap 3-->
+
+      <!-- styles post -->
+      <link href="css/modal-contact.css" rel="stylesheet">
+      <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- Google Fonts -->
+      <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <!-- Template Styles -->
+      <link href="css/style.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+
+  <!-- Navigation bar
+    ======================================================= -->
+  <div class="header"></div>
+      <nav class="navbar navbar-default" role="navigation">
+          <div class="container">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">E-Key</a>
+              </div>
+              <div class="collapse navbar-collapse navbar-ex1-collapse">
+                  <ul class="nav navbar-nav">
+                      <li id="addNewUser"> <a target="_blank" id="addNewUser1" href="http://localhost:63342/ekey-front/registration/registrationUser.html" class="button poplight"><span class="submit" id="addBooks">Регистрация</span><span class="submit"></span></a></li>
+                      <li id="addBookToUser"> <a id="addBookToUser1" href="#?w=500" rel="popup_contact1" class="button poplight"><span class="submit">Добавить книгу студенту</span><span class="submit"></span></a></li>
+                      <li id="addBook"> <a id="addBook1" href="#?w=500" rel="popup_contact" class="button poplight"><span class="submit">Добавить книгу в базу</span><span class="submit"></span></a></li>
+                      <li id="FindBook"> <a id="FindBook" href="#?w=500" rel="popup_contact3" class="button poplight"><span class="submit">Найти книги</span><span class="submit"></span></a></li>
+                      <li id="FindBook1"> <a id="FindBook1" href="#?w=500" rel="popup_contact2" class="button poplight"><span class="submit">Найти книгу</span><span class="submit"></span></a></li>
+                      <li><a href="http://localhost:63342/ekey-front/login/login.html">Sign out</a></li>
+
+                  </ul>
+              </div>
+          </div>
+      </nav>
+
+  <div class="pages">
+      <div class="usr">
+          <p><output id = "firstName"></output></p>
+          <p><output id = "thirdName"></output></p>
+          <p><output id = "secondName"></output></p>
+          <p><output id = "phone"></output></p>
+          <p><output id = "idStudent"></output></p>
+          <p><output id = "university"></output></p>
+          <p><output id = "faculty"></output></p>
+          <p><output id = "group"></output></p>
+      </div>
+
+      <div class="content">
+          <!-- Add book to DB -->
+          <table id="books"></table>
+          <div id="popup_contact" class="popup_block">
+              <form id="form" action="http://localhost//book/" method="post" onload="getIdLibrary()">
+                  <p class="idBook">
+                      <input name="idBook" id="idBook" type="text" class="feedback-input" placeholder="Введите id книги" required>
+                  </p>
+                  <p class="nameBook">
+                      <input name="nameBook" id="nameBook" type="text" class="feedback-input" placeholder="Введите название книги" required>
+                  </p>
+                  <p class="authorBook">
+                      <input name="authorBook" id="authorBook" type="text" class="feedback-input" placeholder="Введите автора книги" required>
+                  </p>
+                  <p class="yearBook">
+                      <input name="yearBook" id="yearBook" type="number" class="feedback-input" placeholder="Введите год публикации книги" required>
+                  </p>
+                  <p class="booksheets">
+                      <input name="booksheets" id="booksheets" type="number" class="feedback-input" placeholder="Введите количество страниц" required>
+                  </p>
+                  <p class="keywords">
+                      <input name="keywords" id="keywords" type="text" class="feedback-input" placeholder="Введите ключевые слова" required>
+                  </p>
+                  <p class="idLibrary">
+                      <input name="idLibrary" id="idLibrary" type="number" class="feedback-input" placeholder="Введите id библиотеки" required>
+                  </p>
+                  <div class="submit">
+                      <input type="submit" value="SEND" id="button-blue" />
+                      <div class="ease"></div>
+                  </div>
+              </form>
+          </div>
+      </div>
+
+      <!-- Book to student -->
+      <div id="popup_contact1" class="popup_block">
+          <form id="form1" action="http://localhost/book/give" method="post">
+              <p class="idLibrary">
+                  <input name="idLibrary1" id="idLibrary1" type="number" class="feedback-input" placeholder="Введите id библиотеки" required>
+              </p>
+              <p class="idStudent">
+                  <input name="id" id="idRFID" type="text" class="feedback-input" placeholder="Введите id студента" required>
+              </p>
+              <p class="idBook">
+                  <input name="idBook" id="idBook" type="text" class="feedback-input" placeholder="Введите id книги" required>
+              </p>
+              <p class="dateFrom">
+                  <input name="dateFrom" id="dateFrom" type="date" class="feedback-input" placeholder="Дата выдачи книги" required>
+              </p>
+              <p class="dateTo">
+                  <input name="dateTo" id="dateTo" type="date" class="feedback-input" placeholder="Дата возврата книги" required>
+              </p>
+              <div class="submit">
+                  <input type="submit" value="SEND" id="button-blue" />
+                  <div class="ease"></div>
+              </div>
+          </form>
+      </div>
+      <div id="popup_contact2" class="popup_block">
+          <form id="form2" action="/" method="post">
+              <p class="idBooks">
+                  <input name="idBooks" id="idBooks" type="number" class="feedback-input" placeholder="Введите id книги" required>
+              </p>
+              <div class="submit">
+                  <input type="submit" value="SEND" id="button-blue" />
+                  <div class="ease"></div>
+              </div>
+          </form>
+      </div>
+      <div id="popup_contact3" class="popup_block">
+          <form id="form3" action="/" method="post">
+              <p class="bookName">
+                  <input name="bookName" id="bookName" type="text" class="feedback-input" placeholder="Введите название книги" required>
+              </p>
+              <p class="bookAuthor">
+                  <input name="bookAuthor" id="bookAuthor" type="text" class="feedback-input" placeholder="Введите автора книги" required>
+              </p>
+              <p class="bookYear">
+                  <input name="bookYear" id="bookYear" type="number" min="1700" max="2016" class="feedback-input" placeholder="Введите год издательства книги" required>
+              </p>
+              <div class="submit">
+                  <input type="submit" value="SEND" id="button-blue" />
+                  <div class="ease"></div>
+              </div>
+          </form>
+      </div>
+
+  </div>
+    <!-- Flag of university -->
+      <div class="sideBar">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/DNU_gerb.png/200px-DNU_gerb.png">
+      </div>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/retina.min.js"></script>
+  <script src="js/load.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="js/modal.js"></script>
+  </body>
+</html>
