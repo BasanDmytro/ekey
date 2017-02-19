@@ -1,6 +1,3 @@
-/**
- * Created by admin on 13.02.17.
- */
 var express = require('express');
 var passport = require('passport');
 var multer = require('multer');
@@ -54,7 +51,6 @@ router.post('/setbook', upload.array(), function (req, res, next) { // set book 
         if (err) {
             res.sendStatus(404)
         }
-
     });
     res.sendFile( __dirname + "/ekey-front/mainpage/" + "mainpage.html" );
 });
@@ -98,7 +94,7 @@ router.post('/setbooktostudent', upload.array(), function (req, res, next) { // 
                 }
             });
             if (err) throw err;
-
+            res.sendFile( __dirname + "/ekey-front/mainpage/" + "mainpage.html" );
         });
     });
 });
@@ -192,9 +188,7 @@ router.post('/reglib', upload.array(), function (req, res, next) {
             })
         }
     });
-
 });
-
 
 router.post ('/login', upload.array(), function(req, res, next) {
     if (!req.body.email || !req.body.password) {
@@ -231,6 +225,33 @@ router.post ('/login', upload.array(), function(req, res, next) {
                 })
             })
     }
+});
+
+
+
+
+
+
+
+
+
+router.post ('/usr', upload.array(), function(req, res, next) {
+        User.findOne({email: req.body.email})
+            .select('email')
+            .select('firstName')
+            .select('thirdName')
+            .select('secondName')
+            .select('role')
+            .select('university')
+            .select('group')
+            .select('library')
+            .select('books')
+            .exec(function(err, user){
+                if (err) {
+                    return res.sendStatus(500)
+                }
+                res.json(JSON.stringify(user));
+            })
 });
 
 module.exports = router;

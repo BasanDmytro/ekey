@@ -2,27 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e98ef56e-f225-40f4-8e53-26c417dd5355" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/css/animate.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/css/iconfont.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/css/modal-contact.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/book.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/calendar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/fon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/id.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/password.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/phone.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/images/url.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/load.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/retina.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/js/scripts.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/model/article.js" afterPath="$PROJECT_DIR$/libs/model/article.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/model/book.js" afterPath="$PROJECT_DIR$/libs/model/book.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/mainpage.html" afterPath="$PROJECT_DIR$/libs/routes/ekey-front/mainpage/mainpage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/routes/users.js" afterPath="$PROJECT_DIR$/libs/routes/users.js" />
     </list>
     <list id="39533568-eff0-43b0-bf5d-5321d52aba47" name="Failed commit: Default" comment="add api" />
@@ -45,11 +24,9 @@
       <file leaf-file-name="users.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libs/routes/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="89" column="33" lean-forward="false" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="597">
+              <caret line="255" column="0" lean-forward="true" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -406,12 +383,12 @@
       <option name="presentableId" value="Default" />
       <updated>1486996939733</updated>
       <workItem from="1486996941244" duration="40000000" />
-      <workItem from="1487408185745" duration="19799000" />
+      <workItem from="1487408185745" duration="20822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59799000" />
+    <option name="totallyTimeSpent" value="60822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -820,11 +797,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="89" column="33" lean-forward="false" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="597">
+          <caret line="255" column="0" lean-forward="true" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
