@@ -66,6 +66,23 @@ router.post('/setuniver', upload.array(), function (req, res, next) { // set uni
     })
 });
 
+router.post('/findbook', upload.array(), function (req, res, next) {
+    var idBook = req.body.idBook;
+    Book.findOne({idNum: idBook}, function(err, book) {
+        if (err) throw err;
+        res.send(book);
+    })
+});
+
+router.post('/findbooks', upload.array(), function (req, res, next) {
+    var bookName = req.body.name;
+    var bookAuthor = req.body.author;
+    var bookYear = req.body.year;
+    Book.find({name: bookName, author: bookAuthor, year: bookYear}, function (err, books) {
+        if (err) throw  err;
+        res.send(books);
+    })
+});
 
 router.post('/setbooktostudent', upload.array(), function (req, res, next) { // set book to library
     var idBook = req.body.idBook;
