@@ -227,17 +227,10 @@ router.post ('/login', upload.array(), function(req, res, next) {
     }
 });
 
-
-
-
-
-
-
-
-
-router.post ('/usr', upload.array(), function(req, res, next) {
+router.post('/usr', upload.array(), function(req, res, next) {
         User.findOne({email: req.body.email})
             .select('email')
+            .select('id')
             .select('firstName')
             .select('thirdName')
             .select('secondName')
@@ -248,8 +241,10 @@ router.post ('/usr', upload.array(), function(req, res, next) {
             .select('books')
             .exec(function(err, user){
                 if (err) {
+                    console.log("error");
                     return res.sendStatus(500)
                 }
+                console.log(JSON.stringify(user));
                 res.json(JSON.stringify(user));
             })
 });
