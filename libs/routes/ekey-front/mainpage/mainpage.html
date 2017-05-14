@@ -1391,7 +1391,7 @@
       user.role = result.role;
       user.library = result.library;
 
-      if (user.role != "STUDENT") {   //довать или убрать кнопку добавить книгу(только для библиотекорей и админовв)
+      if (user.role == "Student") {   //довать или убрать кнопку добавить книгу(только для библиотекорей и админовв)
           document.getElementById('addBook1').style.display='none';
           document.getElementById('addBookToUser1').style.display='none';
           document.getElementById('addNewUser1').style.display='none';
@@ -1482,25 +1482,6 @@
           newCell5.innerHTML = book.dateTo;
       }
 
-
-
-      function getID() {
-          alert("zaebza");
-          idCard = undefined;
-          while (idCard == undefined) {
-              var xhr = new XMLHttpRequest();
-              xhr.open("GET", "http://localhost:1488/", true);
-              xhr.onreadystatechange = function() {
-                  if (xhr.readyState == 4) {
-                      idCard = xhr.responseText;
-                      alert( idCard);
-                      document.getElementById('idRFID').value = idCard;
-                  }
-              };
-              xhr.send();
-          }
-
-      }
 
       $(document).ready(function(){
           //При нажатии на ссылку с классом poplight и href атрибута тега <a> с #

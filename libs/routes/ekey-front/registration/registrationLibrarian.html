@@ -163,20 +163,6 @@
         background-repeat: no-repeat;
     }
 
-    #phone{
-        background-image: url(../images/phone.jpg);
-        background-size: 30px 30px;
-        background-position: 11px 8px;
-        background-repeat: no-repeat;
-    }
-
-    #phone:focus{
-        background-image: url(../images/phone.jpg);
-        background-size: 30px 30px;
-        background-position: 11px 8px;
-        background-repeat: no-repeat;
-    }
-
     #id{
         background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
         background-size: 30px 30px;
@@ -380,10 +366,10 @@
             var libraries = [];
             for (var z = 0; z < result[i].libraries.length; z++) {
                 var tempLibrary = result[i].libraries[z];
-                libraries .push(tempLibrary);
+                libraries.push(tempLibrary);
             }
         }
-        university.libraries = groups;
+        university.libraries = libraries;
         universities.push(university);
 </script>
 
@@ -439,15 +425,17 @@
 <script async>
 
     var indexUniversity = 0;
-
+    console.log(indexUniversity)
     function getLibrary() { // get all groups
         var selectedUniversity = document.form.university.value;
+
         for (var i = 0; i < universities.length; i++) {
             if (universities[i].name == selectedUniversity) {
                 indexUniversity = i;
                 break;
             }
         }
+        console.log(indexUniversity);
         var addLibrary = document.form.library;
         for (var i = 0; i < universities[indexUniversity].libraries.length; i++) {
             addLibrary.options[0] = new Option("Выберите библиотеку", "");

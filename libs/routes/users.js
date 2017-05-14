@@ -19,12 +19,30 @@ router.get('/', function(req, res) {
     res.json({
         'sad': 'asd'
     });
-    console.log("sad");
 });
 
 
 router.get('/reg', function (req, res) {
     res.sendFile( __dirname + "/ekey-front/registration/" + "registrationUser.html" );
+
+});
+
+router.get('/reglib', function (req, res) {
+    res.sendFile( __dirname + "/ekey-front/registration/" + "registrationLibrarian.html" );
+
+});
+
+router.get('/reglibrary', function (req, res) {
+    res.sendFile( __dirname + "/ekey-front/registration/" + "registrationLibrary.html" );
+});
+
+router.get('/reggroup', function (req, res) {
+    res.sendFile( __dirname + "/ekey-front/registration/" + "registrationGroup.html" );
+
+});
+
+router.get('/reguniver', function (req, res) {
+    res.sendFile( __dirname + "/ekey-front/registration/" + "registrationUniversity.html" );
 
 });
 
@@ -115,7 +133,7 @@ router.post('/deletebooktostudent', upload.array(), function (req, res, next) { 
 router.post('/setgroup', upload.array(), function (req, res, next) { // set group
     University.findOne({name: req.body.univer}, function(err, users) {
         if (err) throw err;
-        users.groups.push(req.body.group);
+        users.groups.push(req.body.name);
         users.save();
     });
 });
@@ -123,7 +141,7 @@ router.post('/setgroup', upload.array(), function (req, res, next) { // set grou
 router.post('/setlibrary', upload.array(), function (req, res, next) { // set library
     University.findOne({name: req.body.univer}, function(err, users) {
         if (err) throw err;
-        users.libraries.push(req.body.library);
+        users.libraries.push(req.body.name);
         users.save();
     });
 });
